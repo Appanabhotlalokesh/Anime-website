@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Services {% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+  <h1 class="text-center fw-bold mb-5" style="color: #FF4500; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">Our Services</h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=500&q=80" class="card-img-top" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Episode Reviews</h5>
+          <p class="card-text">In-depth reviews and ratings for the most iconic anime episodes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=500&q=80" class="card-img-top" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Character Spotlights</h5>
+          <p class="card-text">Deep dives into the backgrounds and stories of your favorite characters.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 shadow">
+        <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=500&q=80" class="card-img-top" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Community Forums</h5>
+          <p class="card-text">Join discussions, share recommendations, and connect with fellow fans.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1 class="fw-bold" style="color: #FF4500; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);">About Our Anime World</h1>
+      <p class="lead mt-4">
+        Welcome to the ultimate destination for anime lovers! Our site curates the best episodes, characters, and stories from the world of anime. Whether you're a seasoned otaku or just starting your journey, you'll find something to love here.
+      </p>
+      <ul class="list-unstyled mt-4">
+        <li>🔥 Handpicked episodes</li>
+        <li>🌟 Character spotlights</li>
+        <li>🎬 Community recommendations</li>
+      </ul>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="https://imgs.search.brave.com/VW1IFetGkM3qyHkB4HWpHxsb69bJDxwTazcpovzLcqo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBiLzlj/L2FmLzBiOWNhZmEw/ZjAzZmIwZDExNWFh/YzQ1YmIxNDE2ZGUx/LmpwZw" class="img-fluid rounded shadow" alt="About Anime" style="max-height: 350px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+
+{% endblock body %}
